@@ -1,0 +1,10 @@
+O que este script faz passo a passo:
+pd.read_csv() / pd.read_excel(): Abre o ficheiro para uma tabela virtual chamada DataFrame.
+
+drop_duplicates(): Apaga linhas repetidas por engano.
+
+str.strip().str.title(): Corrige erros estéticos comuns em textos (como maiúsculas trocadas ou espaços extra).
+
+fillna(): Evita que valores vazios rebentem com o seu programa, substituindo-os por um valor predefinido.
+
+to_excel() ou to_csv(): Converte e guarda o resultado final no formato que preferir.
